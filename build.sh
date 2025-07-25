@@ -1,0 +1,1 @@
+DOCKER_BUILDKIT=1 docker build --secret id=secrets_file,src=secrets_file -t myvpn . --progress=plain --no-cache
